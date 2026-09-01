@@ -19,7 +19,7 @@ const About = () => {
                 <h2 className="text-3xl font-bold text-center mb-4">About 
                     <span className="text-purple">Me</span>
                     </h2>
-                <p className="text-gray-400 text-center max-w-2xl mx-auto mb-16">Get to know more about my backgroud and possion</p>
+                <p className="text-gray-400 text-center max-w-2xl mx-auto mb-16">Get to know more about my knowledge and passion</p>
 
                 {/* Image + my journey */}
                 <div className="flex flex-col md:flex-row items-center gap-12">
@@ -43,9 +43,9 @@ const About = () => {
                         >
                             <div className="rounded-2xl p-8">
                                 <h3 className="text-2xl font-semibold mb-2">My Journey</h3>
-                                <p className="text-gray-300 mb-6">I'm a passionate full-stack developer with over 3+ years of experience creating digital solutions for businesses around the world. i have worked on HTML/CSS/ javascript react.js node.js express.js and mongodb database websites and has evolved into building complex web applications with modern frameworks.</p>
+                                <p className="text-gray-300 mb-6">Passionate AI enthusiast and builder dedicated to exploring the frontiers of artificial intelligence and machine learning</p>
 
-                                <p className="text-gray-300 mb-10">When I'm coding, you can find me exploring new technologies, contributing to open-source projects.I believe in continuous learning and pushing the boundaries of what's possible on the web.</p>
+                                <p className="text-gray-300 mb-10">Passionate AI and robotics enthusiast working at the intersection of intelligent software and physical systems</p>
 
                                 
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -126,7 +126,7 @@ const Contact = () => {
               <FaMapMarkerAlt className="text-purple text-2xl mr-4" />
               <div>
                 <h3 className="text-lg font-semibold">Location</h3>
-                <p className="text-gray-400">Lucknow, Singar Nagar</p>
+                <p className="text-gray-400">japan,tokyo</p>
               </div>
             </div>
 

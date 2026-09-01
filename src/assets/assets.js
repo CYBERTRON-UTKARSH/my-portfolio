@@ -1,13 +1,14 @@
-import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaPython, FaFire, FaLaptopCode, FaNodeJs, FaStripe,  FaDatabase, FaVuejs, FaCloud, FaRobot } from 'react-icons/fa';
+import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaPython, FaFire, FaLaptopCode, FaNodeJs, FaStripe,  FaDatabase, FaVuejs, FaCloud, FaRobot, FaMagento, FaWatchmanMonitoring } from 'react-icons/fa';
 import { SiVercel } from "react-icons/si"; 
 
-import profileImg from './sumit.jpeg';
+import profileImg from './optimus.jpeg.jpg';
 import projectImg1 from './Screenshot(34).png';
 import projectImg2 from './project2.avif';
 import projectImg3 from './Screenshot(35).png';
 import projectImg4 from './Screenshot(36).png';
 import projectImg5 from './Screenshot(37).png';
 import projectImg6 from './Screenshot(38).png';
+import { FaLandMineOn, FaPlugCircleBolt } from 'react-icons/fa6';
 
 
 export const assets = {
@@ -40,22 +41,22 @@ export const aboutInfo = [
 
 export const skills = [
   {
-    title: 'Frontend Development',
-    icon: FaReact,
+    title: 'DATA SCIENTIST',
+    icon: FaLandMineOn,
     description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['HTML', 'CSS', 'Bootstrap', 'Tailwind', 'JavaScript', 'React.js']
+    tags: ['PostgreSQL', 'pytorch', 'python', 'numpy', 'pandas', 'powerbi']
   },
   {
-    title: 'Backend Development',
-    icon: FaServer,
+    title: 'Data Analyst',
+    icon: FaCode,
     description: 'Creating robust server-side applications and RESTful APIs.',
-    tags: ['Node.js', 'Express.js']
+    tags: ['MySQL', 'tableau', 'python', 'numpy', 'pandas', 'powerbi']
   },
   {
     title: 'Database Management',
     icon: FaDatabase,
     description: 'Designing and optimizing databases for performance and scalability.',
-    tags: ['MongoDB', 'PostgreSQL', 'MySQL', 'NoSQL']
+    tags: ['MongoDB', 'PostgreSQL', 'MySQL', 'Mongodb']
   },
   {
     title: 'Python Development',
@@ -64,27 +65,27 @@ export const skills = [
     tags: ['Python', 'NumPy', 'library', 'Fuction']
   },
   {
-    title: 'Vercel',
-    icon: SiVercel,
+    title: 'Machine Learning',
+    icon: FaLaptopCode,
     description: 'Deploying and managing applications in cloud environments.',
-    tags: ['Meta', 'Environment', 'Git']
+    tags: ['pandas', 'numpy', 'Pytorch', 'Tensorflow', 'Scikit-learn', 'Keras']
   },
   {
-    title: 'VPS Hostinger',
-    icon: FaLaptopCode,
-    description: 'Deployed MERN Stack Web based app on the virtual private server on the hostinger platform uding the linux machine and pm2 and Ubuntu operating system',
-    tags: ['MERN Stack', 'Node.js', 'Backend Development', 'VPS Deployment', 'Cloud / Hosting', 'Linux / Ubuntu']
+    title: 'AI engineer',
+    icon: FaRobot,
+    description: 'AI engineer is a professional who designs, develops, and implements artificial intelligence systems and solutions.',
+    tags: ['tenserflow', 'numpy', 'transformers', 'pytorch', 'keras', 'scikit-learn']
   }
 ];
 
 export const projects = [
   {
     id: 1,
-    title: "Vander Engines Website for USA",
-    description: "A complete full stack website for the engines and transmissions",
+    title: "Car price prediction",
+    description: "A ml model that can predict estimated price of the car based on the features provided by the user.",
     image: projectImg1,
-    tech: ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js"],
-    icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
+    tech: ['Python', 'Scikit-learn', 'Pandas', 'Numpy', 'Matplotlib', 'Seaborn'],
+    icons: [FaCode, FaPython, FaDatabase, FaCloud],
     demo: "https://vanderengines.com/",
     // code: "https://pokemon-card-app-alpha.vercel.app/",
   },
@@ -142,12 +143,12 @@ export const projects = [
 
 export const workData = [
   {
-    role: "Full Stack Developer",
-    company: "Hanumant Technology / SS Technolody.",
-    duration: "3+ Years",
+    role: "AI Engineer",
+    company: "My own startup",
+    duration: "beginner",
     description:
-      "Full Stack Developer with experience building scalable web applications using front-end and back-end technologies.",
-    color: "purple"
+      "robotics and AI enthusiast working at the intersection of intelligent software and physical systems",
+    color: "red"
   },
   
 ];

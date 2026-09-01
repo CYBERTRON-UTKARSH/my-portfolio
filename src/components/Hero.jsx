@@ -17,14 +17,14 @@ const Hero =() => {
             {/* Left side content  */}
             <div className="md:w-1/2 mb-10 md:mb-0">
                 <h1 className="text-4xl md:text-6xl font-bold mb-4">
-                    Hi, I'm <span className="text-purple">Sumit Mishra</span>
+                    Hi, I'm <span className="text-purple">Utkarsh Mishra</span>
                 </h1>
-                <h2 className="text-2xl md:text-4xl font-semibold mb-6 typewriter typing 2s steps(25) infinite">Full Stack Developer</h2>
-                <p className="text-lg text-gray-300 mb-8">I create stunning web experiences with modern technologies and innovative design.</p>
+                <h2 className="text-2xl md:text-4xl font-semibold mb-6 typewriter typing 2s steps(25) infinite">AI Enthusiast</h2>
+                <p className="text-lg text-gray-300 mb-8">I like to explore AI and robotics.</p>
 
                 <div className="flex space-x-4">
-                    <a href="#projects" className="px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300">View Work</a>
-                     <a href="#contact" className="px-6 py-3 border border-purple-500 rounded-lg font-medium hover:bg-purple-500/20 transition">Contact Me</a>
+                    <a href="#projects" className="px-6 py-3 bg-purple rounded-lg font-medium hover:bg-red-700 transition duration-300">View Work</a>
+                     <a href="#contact" className="px-6 py-3 border border-purple-500 rounded-lg font-medium hover:bg-white/20 transition">Contact Me</a>
                 </div>
             </div>
 
@@ -32,7 +32,7 @@ const Hero =() => {
 
             <div className="md:w-1/2 flex justify-center">
                 <div className="relative w-64 h-64 md:w-80 md:h-80">
-                    <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple to-pink  opacity-70">
+                    <div className="absolute inset-0 rounded-full bg-gradient-to-r from-red to-white  opacity-70">
                         <motion.img
                         animate={{y:[0, -20, 0]}}
                         transition={{
