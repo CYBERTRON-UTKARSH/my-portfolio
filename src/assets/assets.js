@@ -111,7 +111,7 @@ export const skills = [
     title: 'RAG ',
     icon: FaLaptopCode,
     description: 'RAG (Retrieval-Augmented Generation) is a technique that combines retrieval-based methods with generative models to improve the quality and relevance of generated content.',
-    tags: rag_skills = [
+    tags: [
     "Retrieval",
     "Embeddings",
     "Chunking",
@@ -126,7 +126,7 @@ export const skills = [
     title: 'AI engineer',
     icon: FaRobot,
     description: 'AI engineer is a professional who designs, develops, and implements artificial intelligence systems and solutions.',
-    tags: ai_engineering_skills = [
+    tags: [ 
     "Fine-tuning",
     "Prompting",
     "Orchestration",
