@@ -1,7 +1,7 @@
 import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaPython, FaFire, FaLaptopCode, FaNodeJs, FaStripe,  FaDatabase, FaVuejs, FaCloud, FaRobot, FaMagento, FaWatchmanMonitoring } from 'react-icons/fa';
 import { SiVercel } from "react-icons/si"; 
 
-import profileImg from 'profileimage.png';
+import profileImg from './profileimage.png';
 import projectImg1 from './Screenshot(34).png';
 import projectImg2 from './project2.avif';
 import projectImg3 from './Screenshot(35).png';
